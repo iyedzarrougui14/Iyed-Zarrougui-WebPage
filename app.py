@@ -193,7 +193,7 @@ if selection == "Projects":
             """)
 
     # Load image for the project
-    img_rearobot = Image.open("images/rearobot1.jpg")
+    img_rearobot = Image.open("images/tab2.jpg")
 
     with st.container():
         image_column, text_column = st.columns((1, 2))  
