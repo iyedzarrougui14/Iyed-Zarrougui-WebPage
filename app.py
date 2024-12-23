@@ -198,7 +198,7 @@ if selection == "Projects":
     with st.container():
         image_column, text_column = st.columns((1, 2))  
         with image_column:
-            st.image(img_rearobot, width=500)  
+            st.image(img_rearobot)  
         with text_column:
             st.subheader("Development of a Telemedicine Application on a Mobile Robot")
             st.markdown("""
