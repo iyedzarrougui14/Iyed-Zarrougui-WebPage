@@ -19,12 +19,13 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
+
 #---Load Assets
 lottie_coding = "https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json"
 img_contact_form = Image.open("images/375516612_830530748450079_5431732182712240573_n.jpg")
 img_lottie_animation = Image.open("images/Capture d'écran 2023-11-12 175928.png")
-img_sign = Image.open("images\\sign.jpg")
-img_rgb = Image.open("images\\rgb.jpg")
+img_sign = Image.open("images\sign.jpg")
+img_rgb = Image.open("images\rgb.jpg")
 
 # Add a navbar with links to different sections
 def navbar():
