@@ -176,7 +176,7 @@ if selection == "Projects":
             """)
 
     # Load the image for the AutoML section
-    img_automl = "C:\\Users\\Iyed Zarrougui\\Desktop\\webpage\\images\\automl.png"
+    img_automl = Image.open("images/automl.png")
 
     # Display the project in a container
     with st.container():
@@ -193,7 +193,7 @@ if selection == "Projects":
             """)
 
     # Load image for the project
-    img_rearobot = r"C:\Users\\Iyed Zarrougui\\Desktop\\webpage\\images\\rearobot1.jpg"  
+    img_rearobot = Image.open("images/rearobot1.jpg")
 
     with st.container():
         image_column, text_column = st.columns((1, 2))  
